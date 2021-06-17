@@ -1,0 +1,221 @@
+body {
+  overflow-x: hidden !important;
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+.nav-color {
+  color: black;
+  opacity: 0.8;
+}
+.logo {
+  height: 50px;
+  object-fit: fill;
+  display: block;
+}
+
+.tital {
+  border: 2px solid #e7e7e700;
+}
+
+.tital:hover {
+  background-color: #061f48;
+  opacity: 1;
+  border: 2px solid #e7e7e7;
+  border-radius: 5rem;
+}
+.header {
+  color: #ffffff;
+  letter-spacing: 0.6px;
+}
+.search-box {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 35px;
+  border: 2px solid #e7e7e700;
+  padding: 5px;
+}
+.search-box:hover {
+  border: 1px solid #e7e7e7;
+  border-radius: 5rem;
+}
+.search-box:hover > .search-text {
+  width: 80px;
+  padding: 0 6px;
+}
+.search-box > a {
+  color: inherit;
+  text-decoration: none;
+}
+.search-btn {
+  color: #fff;
+  float: left;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.search-text {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: white;
+  text-align: right;
+  font-size: 14px;
+  transition: 0.4s;
+  line-height: 10px;
+  width: 0px;
+}
+.slider {
+  object-fit: fill;
+  height: 100vh;
+}
+.slider-text {
+  color: white;
+}
+.slide-Htext {
+  top: 225px;
+  left: 136px;
+  width: 948px;
+  height: 150px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.slide-Ptext {
+  top: 493px;
+  left: 151px;
+  width: 918px;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+  opacity: 1;
+}
+.Slide-Button {
+  top: 636px;
+  left: 867px;
+  width: 183px;
+  height: 63px;
+  border: 3px solid #f4f4f4;
+  border-radius: 73px;
+  opacity: 0.6;
+}
+.colum{
+  height: 100vh;
+}
+.frame {
+  height: 400px;
+  width: 320px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.zoomin img {
+  height: 400px;
+  width: 350px;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.zoomin img:hover {
+  width: 600px;
+  height: 600px;
+}
+.article-container {
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.article-img-holder {
+  width: 100%;
+  height: 100%;
+  background: url(./images/marketing-strategy-business-relationship-concept-know-your-customer-young-client-covered-bag-with-many-question-marks.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+.article-img-holder1 {
+  width: 100%;
+  height: 100%;
+  background: url(./images/speaker-stage-front-room-with-rear-view-audience-put-hand-up-acton.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+.article-img-holder2 {
+  width: 100%;
+  height: 100%;
+  background: url(./images/businessman-drawing-circle-select-group-people-standing-out-crowd.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 1s;
+  opacity: .8;
+}
+
+.article-img-holder:hover {
+  transform: scale(1.6);
+}
+
+.article-img-holder1:hover {
+  transform: scale(1.6);
+}
+.article-img-holder2:hover {
+  background-size:1200px;
+  transition: all 1s;
+}
+.article-title-link {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 50%;
+  margin-left:30%;
+  padding: 10px;
+  text-decoration: none;
+}
+.article-title-link:hover {
+  text-decoration:underline;
+}
+.parent {
+  width: 45%;
+  margin: 20px;
+  height: 300px;
+  border: 1px solid blue;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  display: inline-block;
+cursor: pointer;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+
+.bg-two {background-image: url(https://media.timeout.com/images/101602611/image.jpg);}
